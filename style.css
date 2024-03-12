@@ -157,4 +157,17 @@ button{
     color: #fff;
     gap: 2rem; 
 }
-.card-container{}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.card{
+    width:70%;
+    display: flex;
+    flex-direction: row;
+    gap:4rem;
+    background-color:#233e50;
+    padding: 2rem;
+    border-radius: 20px;
+}
